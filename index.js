@@ -15,5 +15,5 @@ app.listen( process.env.PORT, () => {
 });
 
 app.get("/twitter", (req, res) =>{
-    res.send('https://www.instagram.com/?hl=en')
+    res.send('<a href="https://www.instagram.com/?hl=en">click here</a>')
  })
